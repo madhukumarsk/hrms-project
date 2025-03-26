@@ -89,10 +89,10 @@ load_dotenv()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('database'),
-        'USER': os.getenv('postgres1'),
+        'NAME': os.getenv('django-app'),
+        'USER': os.getenv('postgres'),
         'PASSWORD': os.getenv('Madhulora593'),
-        'HOST': os.getenv('database.cmxoi62m8mtr.us-east-1.rds.amazonaws.com'),
+        'HOST': os.getenv('django-app.cmxoi62m8mtr.us-east-1.rds.amazonaws.com'),
         'PORT': os.getenv('DB_PORT', '5432'),
     }
 }
@@ -122,7 +122,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/mumbai'
+TIME_ZONE = 'N. Virginia
+us-east-1'
 
 USE_I18N = True
 
