@@ -1,2 +1,0 @@
-# aihr4u
-LORAHRMS
